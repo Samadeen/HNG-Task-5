@@ -1,0 +1,46 @@
+.availability {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.availability h2 {
+  width: 40.8125rem;
+  color: #141414;
+  text-align: center;
+  font-family: Sora;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.availability button {
+  margin: 2.5rem 0;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background: #120b48;
+  color: #f9f9ff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.availability p {
+  color: #7e7e7e;
+  text-align: center;
+  font-family: Sora;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.availability a {
+  color: #120b48;
+  text-decoration-line: underline;
+}
