@@ -1,0 +1,89 @@
+.profile_container {
+  max-width: 75rem;
+  margin: 0 auto;
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 0;
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+
+      p {
+        color: #141414;
+        font-family: Work Sans;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+
+  .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .profile_details {
+      h1 {
+        color: #141414;
+        font-family: Sora;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        color: rgba(20, 20, 20, 0.7);
+        /* Typography/Body/B1 */
+        font-family: Work Sans;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+
+    label {
+      position: relative;
+      input {
+        border-radius: 0.75rem;
+        border: 1px solid #e7e7ed;
+        background: rgba(182, 179, 198, 0.14);
+        display: flex;
+        width: 25rem;
+        padding: 1.5rem 2.5rem 1.5rem 3.5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.5rem;
+        flex-shrink: 0;
+
+        &:focus {
+          outline: none;
+        }
+      }
+      img {
+        position: absolute;
+        left: 1rem;
+        top: 1.5rem;
+      }
+    }
+  }
+
+  .recent {
+    h2 {
+      text-align: center;
+      margin-top: 5rem;
+      font-size: 3rem;
+      color: gainsboro;
+    }
+  }
+}
