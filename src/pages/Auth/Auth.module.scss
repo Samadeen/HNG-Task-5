@@ -1,0 +1,135 @@
+.auth_container {
+  img {
+    padding: 3rem 0 2.3rem 7rem;
+  }
+
+  .auth_details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 29.6875rem;
+    margin: 0 auto;
+
+    h1 {
+      color: #141414;
+      font-family: Inter;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%; /* 3rem */
+      letter-spacing: 0.02rem;
+    }
+
+    p {
+      color: #434343;
+      text-align: center;
+      font-family: Inter;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 150%; /* 1.3125rem */
+      letter-spacing: 0.00875rem;
+      margin: 0.5rem 0 2rem;
+
+      span {
+        font-weight: 400;
+      }
+    }
+
+    button {
+      display: flex;
+      //   padding: 0.1875rem 7.6875rem 0.1875rem 8.3125rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 1rem;
+      width: 100%;
+      gap: 1rem;
+      border-radius: 0.75rem;
+      border: 1px solid #141414;
+      background: #fff;
+      color: #141414;
+      font-family: Inter;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%; /* 1.5rem */
+      letter-spacing: 0.01rem;
+      cursor: pointer;
+      margin-bottom: 1.69rem;
+
+      img {
+        padding: 0;
+      }
+    }
+
+    .or {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      margin: 2rem 0;
+
+      small {
+        color: #b9c2c8;
+      }
+
+      .line {
+        width: 12.5rem;
+        height: 10px;
+        color: #b9c2c8;
+      }
+    }
+
+    form {
+      width: 29.6875rem;
+      label {
+        color: #141414;
+        font-family: Work Sans;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        input {
+          display: block;
+          margin-top: 0.75rem;
+          width: 100%;
+          margin-bottom: 1rem;
+          padding: 1rem;
+          color: #626262;
+          font-family: Work Sans;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          border-radius: 0.75rem;
+          border: 1px solid #b9c2c8;
+
+          &:focus {
+            outline: none;
+          }
+          &::placeholder {
+            color: #626262;
+          }
+        }
+      }
+
+      a {
+        display: block;
+        margin-top: 2rem;
+        width: 100%;
+        border-radius: 0.5rem;
+        background: #120b48;
+        padding: 1rem;
+        color: #f9f9ff;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+  }
+}
