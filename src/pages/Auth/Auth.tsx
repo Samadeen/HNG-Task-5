@@ -7,7 +7,9 @@ import { Link } from 'react-router-dom';
 const Auth = () => {
   return (
     <section className={styles.auth_container}>
-      <img src={logo} alt='logo' />
+      <Link to='/'>
+        <img src={logo} alt='logo' />
+      </Link>
       <div className={styles.auth_details}>
         <h1>Log in or Sign up</h1>
         <p>
