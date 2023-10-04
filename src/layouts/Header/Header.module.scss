@@ -1,0 +1,32 @@
+.header {
+  padding: 1.5rem 6.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 1px solid gainsboro;
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    li {
+      color: #000;
+      font-family: Work Sans;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+
+  a {
+    color: #120b48;
+    text-align: center;
+    font-family: Sora;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
